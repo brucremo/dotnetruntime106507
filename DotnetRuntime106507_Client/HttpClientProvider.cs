@@ -14,6 +14,7 @@
 
             // Allow self-signed cert
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
+            handler.SslProtocols = System.Security.Authentication.SslProtocols.Tls13;
 
             return GetHttpClient(handler);
         }

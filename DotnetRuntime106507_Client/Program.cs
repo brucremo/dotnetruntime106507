@@ -6,8 +6,6 @@
 
         static void Main(string[] args)
         {
-            System.Net.ServicePointManager.SecurityProtocol = System.Net.SecurityProtocolType.Tls13;
-
             var apiHostWithPort = Environment.GetEnvironmentVariable("API_HOST_PORT");
 
             bool allGood = true;
