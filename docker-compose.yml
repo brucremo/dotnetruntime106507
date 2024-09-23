@@ -17,8 +17,6 @@ services:
       - ./DotnetRuntime106507.pfx:/https/DotnetRuntime106507.pfx
     ports:
       - "44349:443"
-    networks:
-    - dotnetruntime106507
 
   dotnetruntime106507client:
     container_name: dummy_client
@@ -30,9 +28,3 @@ services:
       - API_HOST_PORT=<YourIp>:44349
     volumes:
       - ./dumps:/app/dumps:rw
-    networks:
-    - dotnetruntime106507
-
-networks:
-  dotnetruntime106507:
-    driver: ipvlan
