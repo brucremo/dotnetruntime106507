@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DotnetRuntime106507_Client": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

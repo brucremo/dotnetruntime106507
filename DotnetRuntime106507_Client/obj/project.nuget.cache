@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5JViBuHb12k=",
+  "success": true,
+  "projectFilePath": "/home/brunocremonese-de-morais/repos/DotnetRuntime106507-master/DotnetRuntime106507_Client/DotnetRuntime106507_Client.csproj",
+  "expectedPackageFiles": [
+    "/home/brunocremonese-de-morais/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.21.0/microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
+  "logs": []
+}

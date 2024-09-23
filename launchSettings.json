@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "dotnetruntime106507": "StartDebugging",
+        "dotnetruntime106507_client": "StartDebugging"
+      }
+    }
+  }
+}
