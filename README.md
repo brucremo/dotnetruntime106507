@@ -13,3 +13,11 @@
 5. Monitor the docker compose logs, at a certain point the client will hang and the API will keep restarting while the client is stuck. This can take anywhere from 15 to 30 minutes to occur.
 
 6. Once you've confirmed the client is hung waiting for a response, run `./getdump.sh` to get the dotnet dump from the running client into the `./dumps` folder.
+
+## Notes
+
+### The Client is not "stuck forever" 
+
+The issue seems to self-resolve and communication is resumed after the Server is rebooted a few (2-3) times while the Client is stuck waiting after an initial reboot. 
+
+To speed up reproduction you can update the Server restart gap to 10s and the bad Client state should occur in around 10 minutes.
