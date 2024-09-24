@@ -1,0 +1,42 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider files
+.idea/
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Visual Studio Code files
+.vscode/
+
+# ASP.NET Core
+wwwroot/lib/
+wwwroot/css/
+wwwroot/js/
+
+# Logs
+*.log
+
+# Configuration files
+appsettings*.json
+*.db
+
+# Other
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pdb
+*.cache
+
+docker-compose-localhost.yaml
